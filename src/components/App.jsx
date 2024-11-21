@@ -21,6 +21,7 @@ function App() {
         <> <header className="container">
             <h1>Country Info App.
             </h1>
+            <br />
             <p>Explore information about countries, capitals and flags.Add countries and filter trough the list </p>
         </header>
             <main>
