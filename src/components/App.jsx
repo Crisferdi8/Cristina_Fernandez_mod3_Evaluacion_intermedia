@@ -3,6 +3,7 @@ import countryData from "../services/data.json"
 import ListCountries from "./listCountries";
 import Filter from "./Filter";
 import { useState } from "react";
+import "../scss/layout/container.scss"
 
 function App() {
     const [searchValue, setSearchValue] = useState("");
@@ -17,9 +18,10 @@ function App() {
     })
 
     return (
-        <> <header>
+        <> <header className="container">
             <h1>Country Info App.
             </h1>
+            <p>Explore information about countries, capitals and flags.Add countries and filter trough the list </p>
         </header>
             <main>
                 <Filter onChangeFilter={changeSearch} />

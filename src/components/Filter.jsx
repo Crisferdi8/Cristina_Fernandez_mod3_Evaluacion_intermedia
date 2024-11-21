@@ -14,6 +14,7 @@ function Filter({ onChangeFilter }) {
         <form >
             <label htmlFor="search">Buscar:</label>
             <input id="search" type="text" onChange={handleChange} />
+
         </form>
     )
 }
